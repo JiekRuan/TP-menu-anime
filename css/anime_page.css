@@ -46,7 +46,7 @@ nav ul li{
     text-align: center;
 }
 nav ul li:first-child{
-    padding: 1.5rem;
+    padding: 2.9rem;
     width: 40%;
 }
 nav ul li a{
@@ -164,39 +164,23 @@ main .btn-add::before{
 main .btn-remove::before{
     content: '- view less';
 }
+footer{
+    background-color: #ccc;
+}
+.liste{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+}
 footer p{
     text-align: center;
+    margin-top: 2rem;
 }
-footer ul{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+div h3{
+    margin: 1rem;
 }
-footer ul li{
-    padding: 2rem;
-}
-details{
-    max-width: 80rem;
-    margin: 1rem auto;
-}
-details summary{
-    list-style-type: none;
-    text-align: center;
-    padding: 1rem;
-    cursor: pointer;
-}
-details summary::-webkit-details-marker{
-    display: none;
-}
-details summary::before{
-    content: "\203A";
-    display: inline-block;
-    margin-right: .5rem;
-    transform: rotate(0deg);
-    vertical-align: top;
-}
-details[open] summary::before{
-    content: "\203A";
-    transform: rotate(90deg);
+div ul li{
+    margin-left: 1rem;
 }
 
 @keyframes slideUp{
