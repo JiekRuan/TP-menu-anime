@@ -1,0 +1,86 @@
+@media screen and (max-width: 1300px){
+    
+    main figure{
+        grid-template-columns: repeat(1, 1fr);
+        height: 70rem;
+    }
+    main figure:nth-child(2n + 2) figcaption{
+        order: 0;
+    }
+    main figure figcaption p{
+        height: 10rem;
+    }
+    main figure img:hover{
+        transform: none;
+    }
+    .btn-add{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .header{
+        width: 20%;
+    }
+    nav ul li{
+        width: calc(100% / 5);
+    }
+    main figure{
+        grid-template-columns: repeat(1, 1fr);
+        height: 70rem;
+    }
+    main figure:nth-child(2n + 2) figcaption{
+        order: 0;
+    }
+    main figure figcaption p{
+        height: 10rem;
+    }
+    main figure img:hover{
+        transform: none;
+    }
+    .btn-add{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 1000px){
+    main figure{
+        grid-template-columns: repeat(1, 1fr);
+        height: 70rem;
+    }
+    main figure:nth-child(2n + 2) figcaption{
+        order: 0;
+    }
+    main figure figcaption p{
+        height: 10rem;
+    }
+    main figure img:hover{
+        transform: none;
+    }
+    .btn-add{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 600px){
+
+    main figure{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 0;
+    }
+    main figure figcaption p{
+        height: 20rem;
+    }
+    .btn-add{
+        width: 40%;
+    }
+}
+@media screen and (orientation:landscape){
+    main figure{
+        grid-template-columns: repeat(2, 1fr);
+        height: 40rem;
+    }
+    main figure:nth-child(2n + 2) figcaption{
+        order: 2;
+    }
+    main figure img:hover{
+        transform: none;
+    }
+}
